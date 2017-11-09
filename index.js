@@ -1,7 +1,7 @@
 // Code your solution here:
 
-function driversWithRevenueOver() {
-
+function driversWithRevenueOver(drivers, revenue) {
+  return drivers.map(driver => driver.revenue)
 }
 
 function driverNamesWithRevenueOver() {
@@ -9,7 +9,7 @@ function driverNamesWithRevenueOver() {
 }
 
 function exactMatch() {
-  
+
 }
 
 function exactMatchToList() {
