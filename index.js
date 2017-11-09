@@ -5,7 +5,7 @@ function driversWithRevenueOver(drivers, revenue) {
 }
 
 function driverNamesWithRevenueOver(drivers, revenue) {
-  return drivers.filter(driver => driver.revenue > revenue)
+  return drivers.filter(driver => driver.revenue > revenue ? driver.name : null)
 }
 
 function exactMatch() {
