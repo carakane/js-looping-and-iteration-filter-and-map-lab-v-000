@@ -1,7 +1,7 @@
 // Code your solution here:
 
 function driversWithRevenueOver(drivers, revenue) {
-  return drivers.map(driver => driver.name, driver.revenue)
+  return drivers.filter(driver => driver.revenue > revenue)
 }
 
 function driverNamesWithRevenueOver() {
